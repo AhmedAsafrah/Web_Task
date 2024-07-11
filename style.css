@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fira Sans Condensed", sans-serif;
+  background-color: #f3f4f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.title {
+  font-size: 40px;
+}
+.navbar {
+  background-color: rgba(255,255,255);
+  padding: 37px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  box-shadow: 0 2px 2px #dadbdd;
+}
+
+.logo-div {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 23px;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 22px;
+  list-style: none;
+  font-size: 15px;
+  font-weight: 200;
+  font-size: 20px;
+  border: none;
+}
+.btn-go-pro {
+  background-color: #fbbf24;
+  color: #92400e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 40px;
+  gap: 7px;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 5px 15px;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+}
+.hov:hover {
+  background-color:#fcd34d;
+}
+.right-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.pic {
+  border-radius: 50%;
+}
+.cube {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+.cube:hover {
+  background-color: #dbeafe;
+  border-radius: 5px;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+  font-size: 21px;
+  color: #374151;
+}
+
+.courses-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 70%;
+  flex-wrap: wrap;
+  gap: 20px 35px;
+}
+.course {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 21%;
+  padding:30px 10px;
+  border: 1px  solid #dcdddf;
+  border-bottom: 2px  solid #dcdddf;
+  gap: 20px;
+  background-color: white;
+  border-radius: 7px;
+}
+.course:hover{
+  transform: translateY(-5px);
+
+}
+.course>img {
+  border-radius: 50%;
+  border: 3px solid #d1d5db;
+  padding: 2px;
+}
+.language {
+  font-weight: bold;
+  font-size: 17px;
+}
+.learners {
+  font-size: 13px;
+  font-weight: 100;
+}
